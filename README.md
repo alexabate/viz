@@ -1,6 +1,7 @@
 # Visualise NYC restaurant inspection data
 
-This code creates a ![dashboard](screenshot.jpg).
+This code creates a dashboard:
+![dashboard](screenshot.jpg).
 
 The dashboard filters the NYC restaurant inspection data to find the top ten
 most hygienic restaurants under a given category (cuisine type). It has a 
