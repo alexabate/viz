@@ -1,6 +1,6 @@
 # Visualise NYC restaurant inspection data
 
-This code creates a ![dashboard]('screenshot.jpg').
+This code creates a ![dashboard](screenshot.jpg).
 
 The dashboard filters the NYC restaurant inspection data to find the top ten
 most hygienic restaurants under a given category (cuisine type). It has a 
@@ -32,6 +32,7 @@ calls to the google geocoder API to complete.
 
 # Requirements
 
+```
 cufflinks==0.14.6
 dash==0.35.1
 dash-core-components==0.42.1
@@ -43,6 +44,7 @@ matplotlib==2.2.2
 numpy==1.14.2
 pandas==0.22.0
 plotly==3.5.0
+```
 
 
 # Instructions
