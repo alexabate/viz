@@ -1,6 +1,5 @@
 import logging
 import urllib.request
-from time import sleep
 import os
 
 import dash
@@ -130,7 +129,7 @@ def get_lat_lon(resto):
     address = create_full_address(resto)
     logger.info(f'querying for address {address}')
     results = gmaps.geocode(address)
-    sleep(1)
+
     if len(results) > 0:
         lat = results[0].get('geometry', {}).get('location', {}).get('lat')
         lon = results[0].get('geometry', {}).get('location', {}).get('lng')
